@@ -24,8 +24,7 @@ pipeline
                 }
             }
         }
-        
-        
+                
         
         stage("Deploy to QA"){
             steps{
@@ -54,10 +53,6 @@ pipeline
                                   reportName: 'HTML Extent Report', 
                                   reportTitles: ''])
             }
-        }
-        
-        
-        
-        
+        }   
     }
 }
